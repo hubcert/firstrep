@@ -45,7 +45,8 @@ int main()
 	const B& obj(2);
 	A foo2(bar);
 	A foo3(barr[0]);
-	//foo2 = foo3; //deleted function
+	//foo2 = foo3; //deleted functions
+	//nothing special
 	cout << foo2.getbobj().geta() << foo3.getbobj().geta() << endl;
 	int num = 5;
 	int num2 = 7;
